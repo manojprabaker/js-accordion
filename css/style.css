@@ -1,0 +1,44 @@
+* {
+	padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	
+//background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+
+}
+.container {
+	width:75%;
+	margin: 0 auto;
+}
+.col{
+	margin-top:4rem;
+}
+.accordion h1 {
+	font-weight:500;
+   font-size:1.2rem;
+   border:1px solid gray;
+   padding:0.8rem;
+}
+.accordion-middle h1 {
+    border-top: none;
+    border-bottom: none;
+}
+.accordion p {
+   font-size:0.9rem;
+   border:1px solid gray;
+   padding:0.8rem;
+   display:none;
+}
+button{
+	float:right;
+	cursor:pointer;
+}
+p.show{
+	display:block;
+}
+i {
+	float:right;
+}
